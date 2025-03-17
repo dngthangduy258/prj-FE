@@ -41,7 +41,7 @@ function Welcome() {
             
             setAvatarPreview(
                 userData.avatar
-                    ? `${apiUrlAvatar}/${userData.avatar}`
+                    ? `${userData.avatar}`
                     : '/default-avatar.png'
             );
         } catch (error) {
