@@ -46,7 +46,7 @@ function Navbar() {
 
     // ✅ Xử lý URL ảnh avatar
     const avatarUrl = user?.avatar
-        ? `${apiUrlAvatar}/${user.avatar}`
+        ? `${user.avatar}`
         : '/default-avatar.png';
     console.log(avatarUrl);
     return (
